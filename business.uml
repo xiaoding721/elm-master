@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business</OriginalElement>
+  <nodes>
+    <node x="315.578125" y="553.5">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.cart</node>
+    <node x="-32.921875" y="779.5">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orders</node>
+    <node x="666.578125" y="565.0">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orderdetailet</node>
+    <node x="34.078125" y="304.5">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.user</node>
+    <node x="20.578125" y="542.0">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.deliveryaddress</node>
+    <node x="331.19270833333326" y="0.0">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business</node>
+    <node x="564.6927083333333" y="293.0">f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.food</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orders" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.deliveryaddress" relationship="REFERENCES">
+      <point x="0.0" y="-97.5" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.cart" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.food" relationship="REFERENCES">
+      <point x="110.33333333333337" y="-74.5" />
+      <point x="591.4114583333334" y="515.0" />
+      <point x="716.6927083333333" y="515.0" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.deliveryaddress" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.user" relationship="REFERENCES">
+      <point x="0.0" y="-86.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.cart" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.user" relationship="REFERENCES">
+      <point x="-110.33333333333331" y="-74.5" />
+      <point x="370.7447916666667" y="515.0" />
+      <point x="158.078125" y="515.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.cart" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business" relationship="REFERENCES">
+      <point x="0.0" y="-74.5" />
+      <point x="481.078125" y="267.0" />
+      <point x="716.6927083333333" y="267.0" />
+      <point x="0.0" y="120.5" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orders" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business" relationship="REFERENCES">
+      <point x="127.33333333333331" y="-97.5" />
+      <point x="285.4114583333333" y="740.0" />
+      <point x="956.328125" y="740.0" />
+      <point x="956.328125" y="267.0" />
+      <point x="716.6927083333333" y="267.0" />
+      <point x="0.0" y="120.5" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.food" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business" relationship="REFERENCES">
+      <point x="0.0" y="-97.5" />
+      <point x="0.0" y="120.5" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orderdetailet" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.food" relationship="REFERENCES">
+      <point x="-1.1368683772161603E-13" y="-63.0" />
+      <point x="802.0781249999999" y="515.0" />
+      <point x="716.6927083333333" y="515.0" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.orders" target="f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.user" relationship="REFERENCES">
+      <point x="-127.33333333333331" y="-97.5" />
+      <point x="30.744791666666686" y="740.0" />
+      <point x="10.078125" y="740.0" />
+      <point x="10.078125" y="515.0" />
+      <point x="158.078125" y="515.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.4319571865443423" showDependencies="false" x="381.8168713294181" y="427.5963694607582" />
+  <SelectedNodes>
+    <node>f450867d-a6f3-4976-87d2-fefdc25bab43.TABLE:xiaoding2.business</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>列</Category>
+    <Category>注释</Category>
+    <Category>虚拟外键</Category>
+    <Category>键列</Category>
+  </Categories>
+</Diagram>
+
